@@ -1,0 +1,74 @@
+= Document Title
+FirstName LastName <email>
+
+== Level 1 Section
+
+=== Level 2 Section
+
+==== Level 3 Section
+
+*bold*
+
+_italic_
+
+`monospace`
+
+*Unordered list*
+
+* list item
+* another list item
+** list item in next level
+* and another list item
+
+*Unordered list (2)*
+
+[square]
+- list item
+- another list item
+- and another list item
+
+*Ordered list*
+
+. first item
+. second item
+.. first subitem of an item
+. third item
+
+*Ordered list (2)*
+
+[loweralpha]
+. first item
+. second item
+. third item
+
+label1:: Description of label1
+label2:: Description of label2
+label3:: Description of label3
+
+This is a https://github.com/[link to Github].
+
+____
+This is a block quote. (TODO: nested block quote)
+____
+
+....
+  The code block is indented
+  by at least 2 spaces.
+....
+----
+The block can also be
+enclosed by 4 - or . chars.
+----
+
+|===
+|Column1 |Column2
+
+|Cell 1
+|Cell 2
+
+|Cell 3
+|Cell 4
+
+|===
+
+image::lena.png[alt text]
